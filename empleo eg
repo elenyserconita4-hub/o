@@ -1,0 +1,10 @@
+job-search-automation-madrid/
+├── data/
+│   ├── base_cv.md              # Tu CV base sin datos privados
+│   └── target_keywords.json    # Palabras clave SAS por sector
+├── scripts/
+│   ├── job_scraper.py          # Script de búsqueda en plataformas (InfoJobs/LinkedIn API)
+│   └── cv_adapter.py           # Script para adaptar el CV según la oferta usando IA
+├── notebooks/
+│   └── analysis_notebook.ipynb # Análisis exploratorio de ofertas en Madrid
+└── README.md
